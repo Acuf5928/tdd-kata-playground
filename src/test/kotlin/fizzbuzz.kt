@@ -3,13 +3,6 @@ import assertk.assertions.isEqualTo
 import org.junit.jupiter.api.Test
 
 class FizzTest {
-/*    @Test
-    fun pippo() {
-        val actual = fizzbuzz()
-        *//*val expected = listOf("1", "2", "fizz", "4", "buzz")*//*
-        assertThat().isEqualTo(PARI)
-    }*/
-
     @Test
     fun pippo() {
         val actual = fizzBuzz(3)
